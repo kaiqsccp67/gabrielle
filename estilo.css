@@ -1,0 +1,58 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background: #1d1e20;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    height: 15px;
+}
+
+.img{
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.flex{
+    text-align: center;
+}
+
+.paragrafo{
+    padding: 10px;
+    
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
